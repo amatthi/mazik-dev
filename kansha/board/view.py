@@ -759,7 +759,7 @@ def render_userboards(self, h, comp, *args):
         with h.ul(class_='board-labels'):
             h << [b.on_answer(self.handle_event).render(h, 'item') for b in self.last_modified_boards]
 
-    h << h.h1(_(u'My boards'))
+    h << h.h1(_(u'My projects'))
     if self.my_boards:
         with h.ul(class_='board-labels'):
             h << [b.on_answer(self.handle_event).render(h, 'item') for b in self.my_boards]

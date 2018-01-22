@@ -995,7 +995,7 @@ msgid "Last modified boards"
 msgstr ""
 
 #: kansha/board/view.py:762
-msgid "My boards"
+msgid "My projects"
 msgstr ""
 
 #: kansha/board/view.py:767
@@ -1444,4 +1444,3 @@ msgstr ""
 #: kansha/user/view.py:229
 msgid "Resend invitation"
 msgstr ""
-
